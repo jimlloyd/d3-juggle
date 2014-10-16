@@ -1,0 +1,25 @@
+div#simulation {
+    width: auto;
+    height: 95%;
+    border: 1px solid;
+    padding: 5px;       /* inside of border */
+    margin: 20px;       /* outside of border */
+    border-color: red;
+}
+
+div#simulation canvas {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: white;
+}
+
+body {
+    background-color: gray;
+    position:fixed !important;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "d3-juggler",
+  "version": "0.0.0",
+  "description": "A siteswap juggling animator using d3 and html5 canvas.",
+  "main": "index.js",
+  "dependencies": {
+    "d3": "^3.4.11",
+    "d3-simulation": "git://github.com/jimlloyd/d3-simulation",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6",
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "d3",
+    "juggling",
+    "siteswap",
+    "simulation"
+  ],
+  "jshintConfig": {
+    "node": true,
+    "globalstrict": false,
+    "indent": 2,
+    "globals": {
+      "expect": true,
+      "describe": true,
+      "it": true
+    }
+  },
+  "author": "Jim Lloyd <jim.lloyd@gmail.com>",
+  "license": "ISC"
+}
